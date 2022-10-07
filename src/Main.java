@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         //Создаем хранилище
         EmployeeBook employeeBook = new EmployeeBook(20);
-        //Добавляем сотрудникков
+        //Добавляем сотрудников
         employeeBook.addEmployee(new Employee(new Person("Валиев", "Александр", "Сергеевич"), 2, 46_200));
         employeeBook.addEmployee(new Employee(new Person("Петров", "Виктор", "Анатольевич"), 3, 53_100));
         employeeBook.addEmployee(new Employee(new Person("Громов", "Никита", "Валерьевич"), 1, 43_400));
@@ -64,7 +64,7 @@ public class Main {
         System.out.println();
         //Зарплата всех сотрудников отдела и средняя зарплата по отделу
         System.out.println("Зарплата всех сотрудников отдела и средняя зарплата по отделу");
-        employeeBook.allSalaryDepartment(1);
+        employeeBook.allSalaryDepartment(2);
         System.out.println();
         //Минимальная зарплата среди всех сотрудников
         System.out.println("Минимальная зарплата среди всех сотрудников");
@@ -76,7 +76,7 @@ public class Main {
         System.out.println();
         //Минимальная зарплата в отделе
         System.out.println("Минимальная зарплата в отделе");
-        employeeBook.minSalaryDepartment(2);
+        employeeBook.minSalaryDepartment(5);
         System.out.println();
         //Максимальная зарплата в отделе
         System.out.println("Максимальная зарплата в отделе");

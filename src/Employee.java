@@ -1,9 +1,10 @@
 import java.util.Objects;
+import java.util.stream.Stream;
+
 public class Employee {
     private Person person;
     private int department;
     private double salary;
-
     private static int numberCreation = 0;
     private final int id;
     public Employee(Person person, int department, double salary) {
@@ -47,9 +48,5 @@ public class Employee {
     @Override
     public String toString() {
         return String.format("Отдел №" + department +  ", Ф.И.О.: " + person + ", id сотрудника: " + id + " , зарплата: " + "%.2f",salary);
-    }
-    String employeeSeal() {
-        System.out.println(toString());
-        return null;
     }
 }
