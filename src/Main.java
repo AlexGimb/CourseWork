@@ -56,7 +56,7 @@ public class Main {
         System.out.println();
         //Проверяем
         System.out.println("Проверяем");
-        employeeBook.findDepartmentEmployee(3);
+        employeeBook.findDepartmentEmployee(2);
         System.out.println();
         //Зарплата всех сотрудников и средняя зарплата
         System.out.println("Зарплата всех сотрудников и средняя зарплата");
@@ -88,7 +88,7 @@ public class Main {
         System.out.println();
         //Сотрудники с зарплатой больше чем
         System.out.println("Сотрудники с зарплатой больше чем");
-        employeeBook.moreSalary(70_000);
+        employeeBook.moreSalary(60_000);
         System.out.println();
 
     }

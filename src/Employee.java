@@ -1,5 +1,4 @@
 import java.util.Objects;
-import java.util.stream.Stream;
 
 public class Employee {
     private Person person;
