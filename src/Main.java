@@ -88,7 +88,7 @@ public class Main {
         System.out.println();
         //Сотрудники с зарплатой больше чем
         System.out.println("Сотрудники с зарплатой больше чем");
-        employeeBook.moreSalary(60_000);
+        employeeBook.moreSalary(160_000);
         System.out.println();
 
     }
