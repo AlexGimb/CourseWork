@@ -199,7 +199,6 @@ public class EmployeeBook {
             System.out.println("Сотрудник(и) с зарплатой меньше " + salary + " не найден(ы):");
         }
     }
-
     public void moreSalary(int salary) {
         boolean search = false;
         for (int i = 0; i < employees.length; i++) {
