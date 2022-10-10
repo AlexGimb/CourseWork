@@ -76,11 +76,11 @@ public class Main {
         System.out.println();
         //Минимальная зарплата в отделе
         System.out.println("Минимальная зарплата в отделе");
-        employeeBook.minSalaryDepartment(5);
+        employeeBook.minSalaryDepartment(2);
         System.out.println();
         //Максимальная зарплата в отделе
         System.out.println("Максимальная зарплата в отделе");
-        employeeBook.maxSalaryDepartment(5);
+        employeeBook.maxSalaryDepartment(3);
         System.out.println();
         //Сотрудники с зарплатой меньше чем
         System.out.println("Сотрудники с зарплатой меньше чем");
